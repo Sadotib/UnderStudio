@@ -1,5 +1,6 @@
 streamlit
-agno
+
+phi
 google-generativeai
 python-dotenv
 ffmpeg-python
