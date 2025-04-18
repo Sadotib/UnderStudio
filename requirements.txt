@@ -1,5 +1,5 @@
 streamlit
-phi
+phidata
 google-generativeai
 python-dotenv
 ffmpeg-python
