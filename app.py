@@ -2,7 +2,7 @@ import streamlit as st
 from agno.agent import Agent
 from agno.models.google import Gemini
 from agno.tools.duckduckgo import DuckDuckGoTools
-from google.generativeai import upload_file,get_file
+from google.generativeai import upload_file, get_file
 import google.generativeai as genai
 import time
 from pathlib import Path
