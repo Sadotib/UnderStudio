@@ -1,7 +1,7 @@
 import streamlit as st
-from phi.agent import Agent
-from phi.model.google import Gemini
-from phi.tools.duckduckgo import DuckDuckGo
+from agno.agent import Agent
+from agno.models.google import Gemini
+from agno.tools.duckduckgo import DuckDuckGoTools
 from google.generativeai import upload_file,get_file
 import google.generativeai as genai
 import time
@@ -29,7 +29,7 @@ def initialize_agent():
     return Agent(
         name="Video AI Summarizer",
         model=Gemini(id="gemini-2.0-flash-exp"),
-        tools=[DuckDuckGo()],
+        tools=[DuckDuckGoTools()],
         markdown=True,
     )
 
@@ -107,3 +107,4 @@ st.markdown(
 )
 
 st.caption("Made with ❤️ by sadotib")
+

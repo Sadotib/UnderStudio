@@ -1,7 +1,7 @@
 streamlit
-phi
+agno
 google-generativeai
 python-dotenv
 ffmpeg-python
-
-
+google-genai
+duckduckgo-search
