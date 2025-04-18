@@ -17,5 +17,5 @@ An okay-ish AI-powered video analysis tool that leverages Gemini 2.0 to provide 
 
 ## GitHub Codespaces
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/app-starter-kit?quickstart=1)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://refactored-halibut-7gx75xx6g59cwwrg.github.dev/)
 
